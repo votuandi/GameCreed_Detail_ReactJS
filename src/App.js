@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Container,
@@ -15,6 +14,8 @@ import {
 } from "reactstrap";
 import { render } from "react-dom";
 import { Sidebar, SidebarItem } from "react-responsive-sidebar";
+import Tabs from "./Components/Tabs/";
+import InfoArea from "./Components/InfoArea/index";
 
 const items = [
   {
@@ -163,6 +164,9 @@ class App extends React.Component {
                     </Col>
                   </Row>
                 </div>
+                <div className="rectangle">
+                  <Tabs />
+                </div>
               </Col>
               <Col className="right-side" xs="auto">
                 <div className="right-bar">
@@ -205,12 +209,25 @@ class App extends React.Component {
                     <h5 className="left-text">Purchasing In-game:</h5>
                     <div className="right-text">&#10006;</div>
                   </div>
+                  <div className="type-of-game">
+                    <h6>DEVELOPER: CAPCOM Co., Ltd.</h6>
+                    <h6>PUBLISHER: CAPCOM Co., Ltd.</h6>
+                  </div>
+                  <div className="type-of-game">
+                    <h5>Related: Devil may cry 4, Devil may cry DMC</h5>
+                  </div>
+                  <div className="type-of-game">
+                    <div className="button-detail">Share</div>
+                    <div className="button-detail">Flag</div>
+                  </div>
                 </div>
               </Col>
             </Row>
           </div>
-          <div className="footer">bottom</div>
         </Container>
+        <div className="footer">
+          <InfoArea />
+        </div>
       </div>
     );
   }

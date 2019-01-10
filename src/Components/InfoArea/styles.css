@@ -1,0 +1,31 @@
+#info-group{
+    position: relative;
+    background-color: #f36b2f;
+    margin-top: 10px;
+    color: white
+}
+
+#info-group .left-group{
+    position: relative;
+    display: inline-block;
+    padding-top: 10px
+}
+
+#info-group .right-group{
+    position: relative;
+    display: inline-block;
+    margin-top: 133px
+}
+
+#info-group p{
+    color: white;
+}
+
+#info-group .img-footer{
+    position: relative;
+    margin-top: -58%;
+}
+
+.about-us{
+    margin-bottom: 20px
+}

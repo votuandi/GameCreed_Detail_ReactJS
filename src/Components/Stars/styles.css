@@ -1,0 +1,22 @@
+.star-six { 
+    border-left: 12px solid transparent; 
+    border-right: 12px solid transparent; 
+    border-bottom: 21px solid yellow; 
+    position: relative;
+    display: inline;
+    top: -25px; 
+} 
+.star-six:after { 
+    border-left: 12px solid transparent; 
+    border-right: 12px solid transparent; 
+    border-top: 21px solid yellow; 
+    position: absolute; 
+    content: ""; 
+    top: 30px; 
+    left: -12px; 
+    display: inline;
+}
+
+.space{
+    margin-left: 10px;
+}

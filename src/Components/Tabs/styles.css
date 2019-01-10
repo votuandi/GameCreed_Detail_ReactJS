@@ -1,0 +1,59 @@
+.tabItem{
+    width: 700px;
+    height: 100%
+}
+
+.tabItem2{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.videoContent{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.orange-button
+{
+    z-index: 0;
+    color: white;
+    width: 100%;
+    background-color:#ff4e00;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border: solid #ff4e00;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 10px;
+	text-decoration:none;
+
+}
+.orange-button:hover{
+    background-color:#eb520e;
+}
+
+.orange-button:active
+{
+    position:relative;
+	top:1px;
+}
+
+.table-container{
+    margin-top: 15px
+}
+
+.button-opacity{
+    opacity: 0.5;
+}
+
+.text-decription{
+    text-align: justify;
+    display: inline-block;
+    padding-left: 60px
+}
