@@ -30,3 +30,142 @@
     transform: rotate(360deg);
   }
 }
+
+.left-side {
+  margin-top: 10px;
+}
+
+.right-side {
+}
+
+.footer {
+  background-color: chartreuse;
+  width: 100%;
+}
+
+.conatainer {
+  background-color: black;
+}
+
+.slidebar-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  padding: 12px 20px;
+}
+
+.slidebar-container img {
+  height: 400px;
+  display: inline-block;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  border-radius: 10px;
+}
+
+.rectangle {
+  background-color: white;
+  border-radius: 10px;
+  display: table;
+  color: black;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.rectangle .myButtonAddToCast {
+  background-color: #1d262c;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #1d262c;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-left: 10px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.rectangle .myButtonBuyNow {
+  background-color: #f36b2f;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #f36b2f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-left: 5px;
+}
+
+.rectangle .myButtonAddToCast:hover {
+  background-color: #13171a;
+}
+
+.rectangle .myButtonAddToCast:active {
+  position: relative;
+  top: 1px;
+}
+
+.rectangle .myButtonBuyNow:hover {
+  background-color: #eb520e;
+}
+
+.rectangle .myButtonBuyNow:active {
+  position: relative;
+  top: 1px;
+}
+
+.rectangle .textarea {
+  display: inline-block;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.rectangle .pricearea {
+  display: inline-block;
+  margin-top: 10px;
+  width: 79px;
+  /* text-align: right; */
+}
+
+.right-bar {
+  width: 255px;
+  background-color: #1d262c;
+  color: white;
+  padding-left: 10px
+}
+
+.name-of-game {
+  position: relative;
+  height: 100px;
+  font-size: 30px;
+}
+
+.type-of-game{
+  margin-top: 50px;
+  position: relative;
+}
+
+.type-of-game .left-text{
+  text-align: left;
+  display: inline-block;
+  width: 200px;
+}
+
+.type-of-game .right-text{
+  text-align: right;
+  display: inline;
+  margin-left: 10px;
+}
